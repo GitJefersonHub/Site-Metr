@@ -1,7 +1,7 @@
 
 /* Estilos para o BODY */
-body.JA {
-  background-color: rgb(16, 18, 56);
+body.Metr {
+  background-color: rgb(44, 50, 177);
 }
 
 /* Estilos para o menu de navegação */
@@ -10,19 +10,20 @@ body.JA {
 }
 .logo {
   color: white;
+  background-color: blueviolet;
 }
-
-
 /* Estilos para FONTES */
 h1{
   color: white;
   text-decoration: underline;
 }
 h2{
+  color: yellow;
   text-decoration: underline;
+  
 }
 h3{
-  color: aqua;
+  color: yellow;
   text-align: center;
 }
 h4{
@@ -37,9 +38,9 @@ h5{
 }
 
 /* Estilos para IMAGENS */
-.JA {
+.Metr {
   background-image: url('');
-  .JA {
+  .Metr {
   width: 48%;
   height: 48%;
   padding-left: 26%;
@@ -54,27 +55,4 @@ p1{
   color: greenyellow;
 }
 
-/* Estilos para COLUNAS */
-/* grid 100%*/
-.colunaJA {
-  color: white;
-}
-.colJA1 {
-  /* Para Android e iOS */
-  color: white;
-}
-.colJA2 {
-/* Para Android e iOS */
-  color: white;
-}
-
-.colJA3 {
-/* Para Android e iOS */
-  color: silver;
-}
-
-.colJA4 {
-/* Para Android e iOS */
-  color: silver;
-}
 

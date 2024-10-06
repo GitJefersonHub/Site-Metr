@@ -1,17 +1,17 @@
 
 /* Estilos para o BODY */
-body.tec {
-  background-color: black;
+body.bloc {
+  background-color: gray;
 }
 
 
 /* Estilos para o menu de navegação */
 .navbar {
-  background-color: blueviolet;
+  background-color: green;
 }
 .logo {
   color: white;
-  background-color: green;
+  background-color: blueviolet;
 }
 .menu li a {
   text-decoration: none;
@@ -25,9 +25,10 @@ body.tec {
 }
 h1{
   color: white;
+  text-decoration: underline;
 }
 h3{
-  color: aqua;
+  color: silver;
   text-align: center;
 }
 h4{
@@ -44,9 +45,10 @@ h5{
 
 /* Estilos para PARAGRAFOS */
 p{
-  color: silver;
+  color: blue;
 }
 p1{
   width: 100%;
+  color: yellow;
 }
 

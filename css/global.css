@@ -981,15 +981,11 @@
           /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */
 
           @media only screen and (min-width: 1201px){
-            .containerJA {
+            .containerMetr {
               max-width: 70%; /* Define a largura máxima da página */
               margin: 0 auto;   /* Centraliza o conteúdo */
             }
-            .containertec {
-              max-width: 70%; /* Define a largura máxima da página */
-              margin: 0 auto;   /* Centraliza o conteúdo */
-            }
-            .containerser {
+            .containerbloc {
               max-width: 70%; /* Define a largura máxima da página */
               margin: 0 auto;   /* Centraliza o conteúdo */
             }
@@ -999,15 +995,14 @@
               justify-content: center;
             }
             .navbar {
-              display: flex;
+              display:flex;
               padding-right: 2%;
               overflow: auto;
               width: 100%;
             }
             .logo {
-      
-              padding-left: 3%;
-              padding-right: 3%;
+              padding-left: 10%;
+              padding-right: 10%;
             }
             .menu {
               list-style: none;
@@ -1025,13 +1020,11 @@
               font-family: Arial, Helvetica, sans-serif;
             }
             h1{
-              font-size: 350%;
+              font-size: 400%;
               
-          
             }
             h2{
-              font-size: 340%;
-              color: yellow;
+              font-size: 380%;
             
             }
             h3{
@@ -1054,7 +1047,7 @@
               padding-right: 1%;
               text-align: justify;
               text-indent: 10%;
-              font-size: 250%;
+              font-size: 200%;
               width: 100%;
             }
             p1{
@@ -1065,7 +1058,7 @@
               hyphens: auto;
               padding-left: 1%;
               padding-right: 1%;
-              font-size: 250%;
+              font-size: 200%;
               width: 100%;
             }
             p2{
@@ -1153,7 +1146,7 @@
             }
         
             /* Estilos para BOTÕES */
-            .btn-localização {
+            .btn-local {
               background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
               color: green; /* Cor do texto */
               border: none; /* Sem bordas */
@@ -1163,13 +1156,13 @@
               margin: auto;
               cursor: pointer; /* Cursor de mão ao passar o mouse */
               padding: 1% 1%;
-              font-size: 130%;
+              font-size: 77%;
               width: 100%;
             }
 
             /* Estilos para BOTÕES */
             .btn-vidéo {
-              background-color: silver; /* Cor de fundo do botão */
+              background-color: rgb(247, 187, 76); /* Cor de fundo do botão */
               color: green; /* Cor do texto */
               border: none; /* Sem bordas */
               text-align: center; /* Alinhamento do texto */
@@ -1178,12 +1171,39 @@
               margin: auto;
               cursor: pointer; /* Cursor de mão ao passar o mouse */
               padding: 1% 1%;
-              font-size: 310%;
+              font-size: 150%;
               width: 100%;
             }
               /* Estilos para BOTÕES */
             .btn-convenção {
+              background-color: pink; /* Cor de fundo do botão */
+              color: blueviolet; /* Cor do texto */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              padding: 1% 1%; /* Espaçamento interno */
+              font-size: 150%; /* Tamanho da fonte */
+              width: 100%;
+            }
+            .btn-port {
               background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
+              color: green; /* Cor do texto */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              padding: 1% 1%; /* Espaçamento interno */
+              font-size: 150%; /* Tamanho da fonte */
+              width: 100%;
+            }
+             /* Estilos para BOTÕES */
+             .btn-pro {
+              background-color: rgb(240, 59, 59); /* Cor de fundo do botão */
               color: white; /* Cor do texto */
               margin: auto;
               cursor: pointer; /* Cursor de mão ao passar o mouse */
@@ -1192,7 +1212,7 @@
               text-decoration: none; /* Sem sublinhado */
               display: block; /* Posição do botão */
               padding: 1% 1%; /* Espaçamento interno */
-              font-size: 310%; /* Tamanho da fonte */
+              font-size: 150%; /* Tamanho da fonte */
               width: 100%;
             }
             .btn-Reflexão {
@@ -1205,7 +1225,7 @@
               margin: auto;
               cursor: pointer; /* Cursor de mão ao passar o mouse */
               padding: 1% 1%;
-              font-size: 400%;
+              font-size: 150%;
               width: 100%;
             }
             /* Estilos para BOTÃO */
@@ -1219,7 +1239,7 @@
               margin: auto;
               cursor: pointer; /* Cursor de mão ao passar o mouse */
               padding: 1% 1%;
-              font-size: 400%;
+              font-size: 150%;
               width: 100%;
             }
             /* Estilos para BOTÃO */
@@ -1233,9 +1253,187 @@
               margin: auto;
               cursor: pointer; /* Cursor de mão ao passar o mouse */
               padding: 1% 1%;
-              font-size: 400%;
+              font-size: 150%;
               width: 100%;
             }
+
+
+
+
+
+            /* Estilos para BOTÕESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+
+
+            .btn-A {
+              background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
+              color: green; /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 150%;
+              width: 100%;
+            }
+
+            /* Estilos para BOTÕES */
+            .btn-B {
+              background-color: silver; /* Cor de fundo do botão */
+              color: green; /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 150%;
+              width: 100%;
+            }
+              /* Estilos para BOTÕES */
+            .btn-C {
+              background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
+              color: white; /* Cor do texto */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              padding: 1% 1%; /* Espaçamento interno */
+              font-size: 150%; /* Tamanho da fonte */
+              width: 100%;
+            }
+            .btn-D {
+              background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
+              color: yellow; /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 150%;
+              width: 100%;
+            }
+            /* Estilos para BOTÃO */
+            .btn-H {
+              background-color: yellow; /* Cor de fundo do botão */
+              color: brown; /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block;
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 150%;
+              width: 100%;
+            }
+            /* Estilos para BOTÃO */
+            .btn-J {
+              background-color: rgb(224, 100, 100); /* Cor de fundo do botão */
+              color: rgb(50, 50, 186); /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block;
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 150%;
+              width: 100%;
+            }
+            /* Estilos para BOTÕES */
+            .btn-L {
+              background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
+              color: green; /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 150%;
+              width: 100%;
+            }
+
+            /* Estilos para BOTÕES */
+            .btn-M {
+              background-color: silver; /* Cor de fundo do botão */
+              color: green; /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 150%;
+              width: 100%;
+            }
+              /* Estilos para BOTÕES */
+            .btn-N {
+              background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
+              color: white; /* Cor do texto */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              padding: 1% 1%; /* Espaçamento interno */
+              font-size: 150%; /* Tamanho da fonte */
+              width: 100%;
+            }
+            .btn-R {
+              background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
+              color: yellow; /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 150%;
+              width: 100%;
+            }
+            /* Estilos para BOTÃO */
+            .btn-T {
+              background-color: yellow; /* Cor de fundo do botão */
+              color: brown; /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block;
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 150%;
+              width: 100%;
+            }
+            /* Estilos para BOTÃO */
+            .btn-P {
+              background-color: rgb(224, 100, 100); /* Cor de fundo do botão */
+              color: rgb(50, 50, 186); /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block;
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 150%;
+              width: 100%;
+            }
+            
         
             /* Estilos para RODAPÉ */
             footer {
